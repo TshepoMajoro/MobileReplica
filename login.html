@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./loginStyles.css" />
+</head>
+<body>
+    <nav class="menu">
+        <button id="logIn">
+            Log In
+        </button>
+        <button id="signUp">
+            Sign Up
+        </button>
+    </nav>
+    <form>
+        <label for="email">Your Email</label>
+        <input type="email" placeholder="contact@dscodetech.com" name="email" id="email"/>
+        <div class="accountPassword">
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password@dscodetech" name="password" id="password"/>
+            <img id="showPassword" src="./Icons/eye-off-outline.svg" />
+        </div>
+        <div class="forgotPassword">
+            <p>Wrong password</p>
+            <a href="">Forgot password?</a>
+        </div>
+        <button id="continueBtn">
+            Continue
+        </button>
+    </form>
+    <div class="Or">
+        <hr>
+        <p>Or</p>
+        <hr>
+    </div>
+    <div class="OAuth">
+        <img src="./Logos/logo-apple.svg"/>
+        <p id="withApple">Login With Apple</p>
+    </div>
+    <div class="OAuth">
+        <img src="./Logos/logo-google.svg"/>
+        <p id="withGoogle">Login With Google</p>
+    </div>
+    <div class="signUp">
+        <p>Don't have an account? <a href="">Sign Up</a></p>
+    </div>
+</body>
+</html>

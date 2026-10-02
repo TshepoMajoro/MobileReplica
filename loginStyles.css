@@ -1,0 +1,145 @@
+@media (max-width: 412px){
+    body{
+        margin: auto;
+        width: 70vw;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .menu{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    #logIn, #signUp{
+        background-color: white;
+        border: none;
+        color: #648DDB;
+        font-family: 'Poppins SemiBold';
+        font-size: 20px;
+        width: 169px;
+        text-align: center;
+        /* gap: 10px; */
+        &:focus{
+            border-bottom: 3px solid #648DDB;
+        }
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    label,p,a{
+        font-family: 'Inter SemiBold';
+        font-size: 16px;
+    }
+
+    input{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 12px;
+        width: 68vw;
+        height: 10vw;
+        padding-left: 20px;
+        
+        &:hover{
+            border: 2px solid #648DDB;
+        }
+    }
+
+    input[type = "password"]{
+        margin-bottom: 0px;
+    }
+
+    .accountPassword{
+        position: relative;
+    }
+
+    #showPassword{
+        position: absolute;
+        width: 5vw;
+        height: 5vw;
+        top: 10vw;
+        left: 65vw;
+    }
+
+    .forgotPassword{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75vw;
+    }
+
+    a{
+        text-decoration: none;
+        color: #648DDB;
+    }
+
+    p{
+        color: #D9D9D9;
+    }
+
+    #continueBtn{
+        color: white;
+        background-color: #648DDB;
+        width: 75vw;
+        height: 10vw;
+        border-radius: 12px;
+        border: none;
+        font-family: 'Inter SemiBold';
+        font-size: 16px;
+
+        &:hover{
+            border: 2px solid #648DDB;
+        }
+    }
+
+    .Or{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75vw;
+    }
+
+    hr{
+        color: #E1E1E1;
+        width: 24vw;
+    }
+
+    .OAuth{
+        width: 75vw;
+        background-color: white;
+        border: 2px solid #E1E1E1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vw;
+        border-radius: 12px;
+
+        &:hover{
+            border: 2px solid #648DDB;
+        }
+    }
+
+    #withApple, #withGoogle{
+        padding-left: 3vw ;
+        color: black;
+    }
+
+    img{
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .signUp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
